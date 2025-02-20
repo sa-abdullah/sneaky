@@ -1,0 +1,31 @@
+@import "tailwindcss";
+/* @import 'tailwindcss/preflight'; */
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+/* Plugins */
+/* @plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography'; */
+
+/* Class based dark mode */
+/* @variant dark (&:where(.dark, .dark *)) */
+
+
